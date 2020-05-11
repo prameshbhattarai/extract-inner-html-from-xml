@@ -1,0 +1,60 @@
+logs
+project
+target
+tmp
+.history
+.idea_modules
+.classpath
+.project
+.settings
+
+*.log
+bin
+
+# build
+target
+*.class
+build
+.gradle
+*.bin
+!.bin
+*.db
+out
+
+# project files
+.idea
+!.idea/codeStyleSettings.xml
+
+*.iml
+*.ipr
+*.iws
+
+.vscode
+
+# continuous integration files
+test-results.xml
+
+# unit testing
+*.zip
+!migrate.zip
+!backup.zip
+
+# operating system files
+.DS_Store
+Thumbs.db
+RUNNING_PID
+
+# Binaries
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+!gradle-wrapper.jar
+*.rar
+*.tar
+*.zip
+*.war
+*.ear
+*.sar
+*.class
